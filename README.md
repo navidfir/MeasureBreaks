@@ -3,9 +3,7 @@
 **BreakScope** is a static analysis framework that predicts graph breaks in PyTorch 2’s `torch.compile` before they happen, assigns severity costs, and helps developers prioritise refactoring. It shifts mitigation from reactive (post‑compilation) to **proactive, cost‑aware guidance**.
 
 This repository contains:
-- A research proposal (PDF)
 - A lightweight demo that statically detects break patterns and ranks models by estimated cost
-- Results from running the demo with PyTorch’s inductor backend
 
 ## Problem
 
