@@ -45,7 +45,7 @@ We implemented a simple but complete demo that:
 - Cost ranking matches intuition (numpy > item > print).
 - Runtime break counts confirm breaks for `.item()` and dynamic shapes.
 
-**Limitations**
+## Limitations
 BreakScope is a research prototype. The following limitations are acknowledged:
 
 - Dynamic shape detection is incomplete
