@@ -1,4 +1,4 @@
-# BreakScope – Proactive Graph Break Analysis for PyTorch 2
+# MeasureBreaks – Proactive Graph Break Analysis for PyTorch 2
 
 **BreakScope** is a static analysis framework that predicts graph breaks in PyTorch 2’s `torch.compile` before they happen, assigns severity costs, and helps developers prioritise refactoring. It shifts mitigation from reactive (post‑compilation) to **proactive, cost‑aware guidance**.
 
