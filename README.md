@@ -71,7 +71,7 @@ cd breakscope
 pip install torch pandas
 
 # Run the inductor version (recommended)
-python breakscope_inductor.py
+python measurebreaks_inductor.py
 
 # Or the eager version
-python breakscope_simple.py
+python measurebreaks_eager.py
