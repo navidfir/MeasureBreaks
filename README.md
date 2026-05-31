@@ -7,18 +7,18 @@ This repository contains:
 - A lightweight demo that statically detects break patterns and ranks models by estimated cost
 - Results from running the demo with PyTorch’s inductor backend
 
-## 🎯 Problem
+## Problem
 
 PyTorch 2’s `torch.compile` delivers large speedups but **graph breaks** (when Python constructs cannot be captured) fragment the graph, increase cold‑start latency, and reduce optimisation opportunities. Existing tools react to breaks *after* they occur – BreakScope predicts them *before* compilation, saving developer time and improving performance.
 
-## ✨ Novelty
+## Novelty
 
 - **Static AST/CFG analysis** to detect break patterns without running the model.
 - **Cost modelling** that assigns different penalties to break types (e.g., numpy calls cost more than `print()`).
 - **Priority ranking** so developers fix the most harmful breaks first.
 - **Future extension**: dynamic shape detection (mask indexing, `nonzero()`) – see **Limitations & Future Work**.
 
-## 🚀 Demo
+## Demo
 
 We implemented a simple but complete demo that:
 
